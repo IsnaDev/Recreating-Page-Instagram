@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243,243,243);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.phones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;    
+}
+
+.phones img{
+    height: 50rem;
+}
+
+.container-itens{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    border: 1px solid lightgray;
+    position: relative;
+    padding: 50px;
+}
+
+.instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 180px;
+}
+
+.my-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 120px;
+}
+
+.my-image img{
+    height: 6rem;
+}
+
+.login{
+    background-color: #0095f6;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 4px;
+    margin-bottom: 30px;    
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+p{
+    font-size: 13px;
+}
+
+.logout{
+    color: #0095f6;   
+}
+
